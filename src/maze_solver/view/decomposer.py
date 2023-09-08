@@ -124,4 +124,4 @@ def decompose(border: Border, top_left: Point, square_size: int) -> Primitive:
     if border is Border.LEFT:
         return left
 
-    return NullPrimitive
+    return NullPrimitive()
